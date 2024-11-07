@@ -1,0 +1,107 @@
+
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    background-color: #f9f5f0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 0px 10%  ;
+}
+
+.contact-image {
+    width: 40%;
+}
+
+.contact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-content {
+    padding: 30px;
+    width: 60%;
+}
+
+.contact-content h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        background-image: url('../assets/fronted.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        
+    }
+
+    .contact-image {
+        display: none; /* Hide the image on mobile */
+    }
+
+    .contact-content {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
+    }
+}

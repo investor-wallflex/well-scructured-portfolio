@@ -37,7 +37,7 @@
 
 .social-icons a {
   margin: 0 5px;
-  color: rgb(204,0,136);
+  color: black;
   font-size: 1.2em;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .footer-nav a {
- 
+ color: black;
   text-decoration: none;
   font-size: 0.9em;
 }

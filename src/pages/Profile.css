@@ -5,7 +5,7 @@
     margin: auto;
     color: #333;
     min-width: 100%;
-    background-color: #f5fffa;
+    background-color:  #f5fffa ;
     opacity: 0;
     transform: translateY(-100px);
     animation: slideInFromTop 0.9s ease-out forwards;

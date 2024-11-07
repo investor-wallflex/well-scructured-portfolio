@@ -5,6 +5,7 @@ import HeroProject from "./pages/HeroProject"
 import Footer from "./static/Footer"
 import AboutMe from "./pages/AboutMe"
 import React from 'react';
+import Contact from "./pages/Contact"
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <AboutMe />
     <Skills />
     <HeroProject/>
+    <Contact />
     <Footer/>
    
    
